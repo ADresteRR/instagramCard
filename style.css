@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    /* display: inline-block; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.card {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: black;
+    border: 1px solid black;
+    border-radius: 25px; 
+    
+}
+.card_title{
+    width:100%;
+    height:15%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.title_logo{
+    width:70px;
+    height:70px;
+    display: block;
+    border-radius: 50%;
+    background-color: black;
+}
+
+ul {
+    width:80%;
+}
+ul li {
+    list-style: none;
+    line-height: 20px;
+}
+ul li a {
+    text-decoration:none;
+    text-transform: capitalize;
+}
+
+img{
+    width:10%;
+}
+.main_img{
+    width:100%;
+    height: 65%;
+    background-color:red;
+
+}
+.card_footer{
+    width:100%;
+    height:20%;
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border:1px solid black;
+}
+.card_footer .sticker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:red ; */
+    height:40%;
+}
+.card_footer .sticker .group1{
+    width:50%;
+}
+.card_footer .sticker .group1 img {
+    width:15%;
+    margin: 0 6px;
+    cursor:pointer;
+}
+
+p{
+    text-align: left;
+    padding:10px;
+    font-weight: 200;
+}
